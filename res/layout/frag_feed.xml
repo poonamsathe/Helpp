@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    
+    
+    		<EditText 
+    		    android:id="@+id/edittextfilter"
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="@android:dimen/app_icon_size"
+    		    style="@android:style/TextAppearance.DeviceDefault.Small"
+    		    android:textColor="#999999"
+    		    android:hint="Search here..."
+    		    />
+
+    		<View 
+    		    android:layout_width="fill_parent"
+    		    android:layout_height="1dp"
+    		    android:background="#000"/>
+    		
+   			<RelativeLayout
+        		android:id="@+id/feed_lin"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:background="#fff"
+		        >
+		           
+		    	<ListView
+		    	    android:id="@+id/dash_feed_list"
+		    	    android:layout_width="fill_parent"
+		    	    android:layout_height="match_parent"
+		    	    android:cacheColorHint="#26ae90"
+		    	    android:divider="#26ae90"
+		    	    android:dividerHeight="1dp"
+		    	    android:footerDividersEnabled="true"
+		    	    android:headerDividersEnabled="true"
+		    	    android:padding="0dp" />
+		    	    
+		    	</RelativeLayout>
+
+</LinearLayout>

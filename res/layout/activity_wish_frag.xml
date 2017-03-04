@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+ 
+ 
+ 
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="My Wishlist"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+    <CheckBox
+        android:id="@+id/WishlistFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food" />
+ 
+ 
+    <CheckBox
+        android:id="@+id/WishlistHousing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Housing" />
+ 
+ 
+    <CheckBox
+        android:id="@+id/WishlistClothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clothing" />
+ 
+    <CheckBox
+        android:id="@+id/WishlistFurniture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Furniture" />
+ 
+    <Button
+        android:id="@+id/SubmitWishList"
+        style="@style/NiceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/SubmitWishList" />
+ 
+ 
+    
+</LinearLayout>

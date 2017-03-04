@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Help</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+
+    <string-array name="post_type">
+        <item>Food</item>
+        <item>Housing</item>
+        <item>Clothing</item>
+        <item>Furniture</item>
+    </string-array>
+
+    <!-- activity_post.xml -->
+    <string name="title_activity_post_helpp">PostHelppActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Post">Post</string>
+    <string name="Address">Address</string>
+    <string name="Phone">Phone</string>
+    <string name="Details">Details</string>
+    <string name="SubmitPost">SubmitPost</string>
+    <string name="MyPosts">MyPosts</string>
+    <string name="title_activity_display_charity">DisplayCharity</string>
+    <string name="Category">CATEGORY</string>
+    <string name="header">Header</string>
+    <string name="description">Description</string>
+    <string name="title_activity_list_refugee_view">ListRefugeeViewActivity</string>
+    <string name="title_activity_list_charity_post">ListCharityPostActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_details_charity_post">DetailsCharityPostActivity</string>
+    <string name="deletePost">Delete Post</string>
+    <string name="usertype">Register As</string>
+    <string name="splashtext">splashactivity</string>
+    <string name="title_activity_wish_frag">WishFrag</string>
+    <string name="SubmitWishList">Submit</string>
+
+</resources>

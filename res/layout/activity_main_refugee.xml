@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+
+   <LinearLayout 
+       android:id="@+id/ref_header"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:background="#26ae90"
+       android:padding="10dp"
+       android:orientation="horizontal">
+       
+       <ImageView
+           android:id="@+id/ref_menu_btn"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:padding="5dp"
+           android:src="@drawable/menu"/>
+       
+       <TextView
+        android:id="@+id/ref_header_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:text="HELPP"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+       
+       
+   </LinearLayout> 
+    
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/ref_drawer_layout"
+    android:layout_below="@id/ref_header"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/ref_content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ListView
+        android:id="@+id/ref_left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="#26ae90"
+        android:listSelector="#26ae90"
+        android:dividerHeight="1dp"
+        android:background="#fff"/>
+</android.support.v4.widget.DrawerLayout>
+</RelativeLayout>

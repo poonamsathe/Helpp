@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+   			<RelativeLayout
+        		android:id="@+id/c_feed_lin"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:background="#fff"
+		        >
+		     
+		    	
+		    	<ListView
+		    		android:id="@+id/c_dash_feed_list"
+		        	android:layout_width="fill_parent"
+		    		android:layout_height="match_parent" 
+		    		android:dividerHeight="1dp"
+		    		android:divider="#26ae90"
+		    		android:headerDividersEnabled="true"
+		    		android:footerDividersEnabled="true"
+		    		android:cacheColorHint="#26ae90"
+		    		android:padding="0dp" />
+		   
+		    	    
+		    	</RelativeLayout>
+
+</LinearLayout>
